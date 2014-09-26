@@ -1,0 +1,85 @@
+
+div {
+    font-family: helvetica;
+    }
+
+.header {
+    background: #2db34a;
+    text-align: center; 
+    font-family: helvetica;
+    padding: 24px 15px;
+    margin: 5px;
+ 
+    position: center;
+    color: #fff;
+    border-radius: 10px;
+    height: 30%;
+    width: 96%;
+}
+
+.top-nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding: bottom 10px;
+    text-align: right;
+   /* border: solid 2px;*/
+
+}
+
+.top-nav li {
+    text-align: right;
+    display: inline;
+    float: right;
+}
+
+.top-nav {
+    margin-right: 20px;
+}
+
+.headline {
+    font-size: 30px;
+    font-family: helvetica;
+}
+
+.blog {
+    font-family: helvetica;
+    padding: 30px;
+    margin-top: 30px;
+    width: 67%;
+    margin-left: 10px;
+    margin-right: 40px;
+    padding: 10px; 
+    float: right;
+   /* border: solid 2px;*/
+
+}
+
+.right-rail {
+    float:right;
+    margin-top: 30px;
+    margin-left: 5px;
+    display: block;
+    border: solid 2px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 25%;
+   
+}
+
+.footer {
+    background: gray;
+    text-align: center; 
+    font-family: helvetica;
+    clear:both;
+    margin: 5px;
+  
+    position: center;
+    color: #fff;
+    border-radius: 10px;
+    height: 40%;
+    width: 99%;
+}
