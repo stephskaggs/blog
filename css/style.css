@@ -2,9 +2,13 @@
 div {
     font-family: helvetica;
     }
+.body-container {
+   /* background: gray;*/
+   border: solid 2px red;
+}
 
 .header {
-    background: #2db34a;
+   /* background: #2db34a;
     text-align: center; 
     font-family: helvetica;
     padding: 24px 15px;
@@ -14,64 +18,67 @@ div {
     color: #fff;
     border-radius: 10px;
     height: 30%;
-    width: 96%;
+    width: 96%;*/
+    border: solid 2px blue;
 }
 
 .top-nav a {
-    color: #5a5a5a;
+   /* color: #5a5a5a;
     font-size: 11px;
     font-weight: bold;
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 10px;
     padding: bottom 10px;
-    text-align: right;
-   /* border: solid 2px;*/
+    text-align: right;*/
+    border: solid 2px purple;
 
 }
 
 .top-nav li {
-    text-align: right;
+    /*text-align: right;
     display: inline;
-    float: right;
+    float: right;*/
+    border: solid 2px orange;
 }
 
 .top-nav {
-    margin-right: 20px;
+    /*margin-right: 20px;*/
+    border: solid 2px green;
 }
 
-.headline {
+/*.headline {
     font-size: 30px;
-    font-family: helvetica;
+    font-family: helvetica;*/
 }
 
 .blog {
-    font-family: helvetica;
+   /* font-family: helvetica;
     padding: 30px;
     margin-top: 30px;
     width: 67%;
     margin-left: 10px;
     margin-right: 40px;
     padding: 10px; 
-    float: right;
-   /* border: solid 2px;*/
+    float: right;*/
+    border: solid 2px lime;
 
 }
 
 .right-rail {
-    float:right;
+    /*float:right;
     margin-top: 30px;
     margin-left: 5px;
-    display: block;
-    border: solid 2px;
-    margin-right: 5px;
+    display: block;*/
+    border: solid 2px gray;
+   /* margin-right: 5px;
     padding: 5px;
-    width: 25%;
+    width: 25%;*/
    
 }
 
 .footer {
-    background: gray;
+    /*background: gray;
     text-align: center; 
     font-family: helvetica;
     clear:both;
@@ -81,5 +88,6 @@ div {
     color: #fff;
     border-radius: 10px;
     height: 40%;
-    width: 99%;
+    width: 99%;*/
+    border: solid 2px;
 }
