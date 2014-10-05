@@ -22,72 +22,88 @@ div {
     border: solid 2px blue;
 }
 
+ header:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
 .top-nav a {
-   /* color: #5a5a5a;
+    color: #5a5a5a;
     font-size: 11px;
     font-weight: bold;
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 10px;
     padding: bottom 10px;
-    text-align: right;*/
+    text-align: right;
     border: solid 2px purple;
 
 }
 
 .top-nav li {
-    /*text-align: right;
+    text-align: right;
     display: inline;
-    float: right;*/
+    float: right;
     border: solid 2px orange;
 }
 
 .top-nav {
-    /*margin-right: 20px;*/
     border: solid 2px green;
 }
 
-/*.headline {
+.headline {
     font-size: 30px;
-    font-family: helvetica;*/
+    font-family: helvetica;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    border: solid 2px lime;
+}
+
+.subhead {
+     font-size: 15px;
+    font-family: helvetica;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    border: solid 2px lime;
+}
+
+.body:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
 }
 
 .blog {
-   /* font-family: helvetica;
-    padding: 30px;
-    margin-top: 30px;
-    width: 67%;
-    margin-left: 10px;
-    margin-right: 40px;
-    padding: 10px; 
-    float: right;*/
+    font-family: helvetica;
+    float: left;
     border: solid 2px lime;
+    margin: 0 auto;
+    width: 65%;
+    padding: 10px;
 
 }
 
 .right-rail {
-    /*float:right;
-    margin-top: 30px;
-    margin-left: 5px;
-    display: block;*/
+    float:left;
     border: solid 2px gray;
-   /* margin-right: 5px;
-    padding: 5px;
-    width: 25%;*/
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
    
 }
 
 .footer {
-    /*background: gray;
-    text-align: center; 
     font-family: helvetica;
     clear:both;
-    margin: 5px;
   
-    position: center;
-    color: #fff;
-    border-radius: 10px;
-    height: 40%;
-    width: 99%;*/
-    border: solid 2px;
+  
+
+   
 }
